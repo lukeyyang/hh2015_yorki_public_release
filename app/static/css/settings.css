@@ -1,0 +1,213 @@
+
+
+.antialiased{
+ -webkit-font-smoothing: antialiased;
+}
+
+
+.home-menu {
+  padding: 2em;
+  text-align: center;
+  font-size: 0.9em;
+
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.pure-menu.pure-menu-fixed {
+  border-bottom: none;
+  z-index: 4;
+}
+
+.home-menu .pure-menu-heading {
+  color: white;
+  font-size: 2em;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+
+.home-menu .pure-menu-selected a {
+  color: white;
+}
+
+.home-menu li{
+  color: white;
+  font-weight: bold;
+  padding-top: 2em;
+}
+
+.home-menu a {
+  color: white;
+}
+
+.home-menu li a:hover,
+.home-menu li a:focus {
+  background: none;
+  border: none;
+  color: white;
+
+}
+
+a{
+  text-decoration: underline;
+  color: white;
+}
+
+.is-center{
+  text-align: center;
+}
+
+.is-right{
+  text-align: right;
+}
+
+
+body{
+  text-rendering: optimizeLegibility;
+  background-color: #fff;
+}
+
+
+#settings{
+
+  padding-top: 30vh;
+
+
+  color: white;
+
+  width: 600px;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+
+
+  line-height: 1.5em;
+
+}
+
+#settings h1{
+
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+.main-wrapper{
+
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+    ),
+
+  url(https://m2.behance.net/rendition/pm/4600715/disp/718ae398449f1890af685a85e4d882c4.gif);
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+
+
+}
+
+
+
+
+input{
+
+ background-image: none;
+ background-color: white;
+ box-shadow: none;
+ border: 0.1em solid #fff;
+
+ padding: 1em;
+
+ border-radius: 0 !important;
+ color: #666;
+
+ margin-top: 1em;
+
+ width: 15em;
+
+
+}
+
+
+
+
+button[type=submit] {
+  color: white;
+  background-color: #389FFC;
+
+
+  width: 17.2em;
+
+  padding-top: 1em;
+  padding-bottom: 1em;
+
+
+  
+
+  border-radius: 0.1em;
+
+
+  transition: all 0.4s ease ;
+  
+}
+
+
+
+.button-submit{
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+}
+.button-submit:hover{
+  background-color: #fa5a5a;
+}
+
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+
+}
+
+input[type=text]:focus, textarea:focus {
+  border: 0.25em solid #389FFC;
+}
+
+
+
+@media screen and (min-width: 48em){
+
+
+
+
+
+  .main-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+
+
+  .home-menu {
+    text-align: right;
+    padding-right: 2em;
+  }
+
+  .pure-menu-heading{
+
+    float: left;
+
+  }
+  .home-menu ul {
+
+  }

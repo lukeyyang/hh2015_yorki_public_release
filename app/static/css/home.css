@@ -1,0 +1,186 @@
+    .antialiased{
+     -webkit-font-smoothing: antialiased;
+   }
+
+   .home-menu {
+    padding: 2em;
+    text-align: center;
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+
+  }
+
+  .pure-menu.pure-menu-fixed {
+    border-bottom: none;
+    z-index: 4;
+  }
+
+  .home-menu .pure-menu-heading {
+    color: white;
+    font-size: 2em;
+    text-transform: lowercase;
+    font-weight: 600;   
+  }
+
+  .home-menu .pure-menu-selected a {
+    color: white;
+  }
+
+  .home-menu li{
+    color: white;
+    font-weight: bold;
+    padding-top: 2em;
+  }
+
+  .home-menu a {
+    color: white;
+  }
+
+  .home-menu li a:hover,
+  .home-menu li a:focus {
+    background: none;
+    border: none;
+    color: white;
+
+  }
+
+  .is-center{
+    text-align: center;
+  }
+
+  .is-right{
+    text-align: right;
+
+  }
+
+
+  body{
+    text-rendering: optimizeLegibility;
+    background-color: #fff;
+  }
+
+
+  .image-wrapper{
+    margin-left: 15em;
+    margin-right: auto;
+
+    padding-top: 6em;  
+  }
+
+  #text{
+    padding-top: 35vh;
+    color: white;
+    line-height: 1.5em;
+  }
+
+  #text h1{
+    font-weight: bold;
+    font-size: 2em;
+    line-height: 1em;
+  }
+
+  .main-wrapper{
+    background-image: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+      ),
+
+    url(http://www.nycgo.com/images/03_Baseball-Throw_460x285_2.gif);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+
+
+
+  input{
+
+   background-image: none;
+   background-color: white;
+
+   box-shadow: none;
+   border: 0.1em solid #fff;
+   
+   padding: 0.9em;
+   border-radius: 0 !important;
+   color: #666;
+   margin-top: 1em;
+   margin-left: 0;
+ }
+
+
+
+
+ button[type=submit] {
+  color: white;
+
+  background-color: #389FFC;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding: 1em;
+
+  border-radius: 0.1em;
+
+  transition: all 0.4s ease ;
+  
+}
+
+.button-submit{
+ -webkit-transition: all 0.30s ease-in-out;
+ -moz-transition: all 0.30s ease-in-out;
+ -ms-transition: all 0.30s ease-in-out;
+ -o-transition: all 0.30s ease-in-out;
+}
+.button-submit:hover{
+  background-color: #fa5a5a;
+}
+
+input[type=text], textarea {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+}
+
+input[type=text]:focus, textarea:focus {
+  border: 0.25em solid #389FFC;
+}
+
+
+
+@media screen and (min-width: 48em){
+
+  h1{
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    color: white;
+  }
+
+  .main-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    
+    max-width: 100%;
+
+
+  }
+
+}
+
+.home-menu {
+  text-align: right;
+  padding-right: 2em;
+}
+
+.pure-menu-heading{
+
+  float: left;
+
+}
+.home-menu ul {
+
+}

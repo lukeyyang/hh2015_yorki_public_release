@@ -1,0 +1,6 @@
+SQLAlchemy==0.9.8
+SQLAlchemy-Migrate==0.9.2
+Flask==0.10.1
+Twilio==4.4.0
+Flask-SQLALchemy==1.0
+requests

@@ -1,0 +1,44 @@
+
+input {
+ 
+  display: inline-block;
+}
+input:focus, input:active {
+  outline: none;
+}
+input[type="text"], input[type="email"] {
+ 
+}
+input[type="submit"]:active {
+  color: white;
+
+}
+
+.input-group {
+  display: inline-block;
+  position: relative;
+}
+.input-group input {
+  padding: 1em;
+}
+.input-group label {
+  position: absolute;
+  top: 2.75em;
+  left: 0.5em;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+ 
+ 
+  color: #999;
+  pointer-events: none;
+  -webkit-transition: all 0.15s ease-out 0s;
+  transition: all 0.15s ease-out 0s;
+}
+.input-group input:focus + label,
+.input-group input.has-value + label {
+  top: 85px;
+  font-size: 80%;
+  font-weight: 600;
+  color: white;
+}
